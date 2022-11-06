@@ -41,15 +41,15 @@
     }
     
     .view-more-button{
-      color: white;
+      color: #5a5d60;
       padding: 12px;
-      background-color: black;
+      background-color: #eaeaea;
       border-radius: 5px;
       width: 300px;
       font-size: larger;
       margin: 10px;
       cursor: pointer;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: none;
     }
      
     .view-more-button-container{
@@ -58,11 +58,23 @@
     
     .view-more-button:hover{
       color: white;
-      transition: .2s ease-in;
-      box-shadow: inset 300px 0 0 0 silver;
+      
+      box-shadow: inset 300px 0 0 0 #0896fe;
     }
     
     .h1-style{
       padding-top: 90px;
       text-align: center;
     }
+
+    @media only screen and (max-width: 1000px){
+      .api-blog {
+        grid-template-columns: 1fr;
+      }
+     }
+
+     @media only screen and (max-width: 521px){
+      .api-blog img {
+        width: 100%;
+      }
+     }

@@ -5,7 +5,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color:#f0f8ff
   }
   
   main {
@@ -14,7 +13,7 @@ body {
   
 
 header {
-    background-color: black;
+    background-color: #343538;
     height: 100px;
     z-index: 1;
     width: 100%;
@@ -205,21 +204,38 @@ color: white;
   font-size: xx-large;
 }
 
-  /*Blog posts*/
 
 
-
-/*contact*/
-
-
-
-  /* About us */
-
-
-
-
-  @media only screen and (max-width: 800px) {
-    .slideContainer img{
-      height: 24vw;
-    }
+@media only screen and (max-width: 1200px){
+  .slider-post{
+    min-width: 44vw;
   }
+}
+
+@media only screen and (max-width: 800px){
+  .slider-post{
+    min-width: 84vw;
+  }
+}
+
+
+ @media only screen and (max-width: 1200px){ 
+
+  .slideContainer img {
+    height: 32vw;
+  }
+   }
+
+   @media only screen and (max-width: 800px){ 
+
+    .slideContainer img {
+      height: 55vw;
+    }
+     }
+
+
+     @media only screen and (max-width: 700px){
+      .soccer-images {
+        height: 300px;
+      }
+     }

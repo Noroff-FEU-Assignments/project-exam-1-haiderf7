@@ -13,13 +13,28 @@
     }
   
     .h1-about{
-      padding-top: 100px;
+      padding-top: 90px;
       text-align: center;
     }
   
     .aboutus-info{
       text-align: center;
-      background-color: silver;
+      background-color: #313539;
       padding: 30px;
       margin: 30px;
+    }
+
+    .cta-aboutus{
+      padding: 5px;
+      fill: #ffffff;
+    color: #ffffff;
+    border-style: double;
+    border-width: 3px 3px 3px;
+    border-radius: 2px;
+    }
+
+    .cta-aboutus:hover{
+      color: black;
+      transition: .2s ease-in;
+      box-shadow: inset 100px 0 0 0 silver;
     }
