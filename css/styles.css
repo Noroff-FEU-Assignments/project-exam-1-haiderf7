@@ -11,19 +11,15 @@ body {
     flex: 1 1 10%;
   }
   
-
-header {
-    background-color: #343538;
+  .main-header {
+    display: flex;
+    justify-content: space-between;
     height: 100px;
-    z-index: 1;
-    width: 100%;
-    position: fixed;
-   
-  }
-
-  .nav-bar {
+    background-color: black;
     align-items: center;
-    display: table;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
   }
   
   nav ul {
@@ -31,9 +27,6 @@ header {
     padding-top: 10px;
   }
   
-  nav {
-    display: block;
-  }
   
   a {
     text-decoration: none;
@@ -49,11 +42,33 @@ header {
     font-weight: 700;
   }
 
+  .cta-home:hover{
+    color: #ec7474;
+    transition: .3s ease-in;
+  }
+
   footer{
     color: white;
     background-color: #000000;
   }
 
+  .logo{
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+    font-style: italic;
+    font-family: math;
+    font-weight: 800;
+  }
+
+  .logo:hover{
+    color: #ec7474;
+    transition: .3s ease-in;
+  }
+
+  .search{
+    margin-right: 20px;
+  }
   /*Home page*/
  
 
@@ -134,11 +149,6 @@ padding-top: 30px;
     margin-bottom: 50px;
 }
 
-
-.logo{
-    max-width: 110px;
-    border-radius: 20px;
-}
 
 .about-cta{
     padding: 7px;

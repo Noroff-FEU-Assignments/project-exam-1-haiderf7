@@ -36,5 +36,15 @@
     .cta-aboutus:hover{
       color: black;
       transition: .2s ease-in;
-      box-shadow: inset 100px 0 0 0 silver;
+      box-shadow: inset 100px 0 0 0 #f2f2f2;
+    }
+
+
+    .h2-about{
+      color: #ffffff;
+    }
+
+
+    .about-p{
+      color: white;
     }
