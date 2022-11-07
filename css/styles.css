@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: whitesmoke;
   }
   
   main {
@@ -57,8 +58,9 @@ body {
     margin-left: 20px;
     font-size: 24px;
     font-style: italic;
-    font-family: math;
+    font-family: monospace;
     font-weight: 800;
+    width: 20px;
   }
 
   .logo:hover{
@@ -183,6 +185,10 @@ color: white;
     padding: 6px;  
 }
 
+label{
+  color: white;
+}
+
 .submit-home{
     padding: 3px;
     padding-left: 25px;
@@ -190,6 +196,12 @@ color: white;
     background-color: black;
     color: white;
     font-size: large;
+}
+
+.button-subscribe{
+  width: 128px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 
