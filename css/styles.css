@@ -214,8 +214,11 @@ color: white;
   font-size: xx-large;
 }
 
-.error{
+.error {
+  display: none;
   color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
 }
 
 
