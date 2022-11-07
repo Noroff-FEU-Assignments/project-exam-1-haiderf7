@@ -214,6 +214,9 @@ color: white;
   font-size: xx-large;
 }
 
+.error{
+  color: red;
+}
 
 
 @media only screen and (max-width: 1200px){

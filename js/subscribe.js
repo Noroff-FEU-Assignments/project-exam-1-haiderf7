@@ -18,7 +18,7 @@ function validateForm(event) {
     console.log("hello");
 };
 
-form.addEventListener("submit", validateForm);
+form.addEventListener("Send", validateForm);
 
 function checkLength(value, len) {
     if (value.trim().length > len) {
