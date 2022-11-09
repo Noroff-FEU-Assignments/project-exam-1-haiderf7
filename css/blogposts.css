@@ -41,7 +41,7 @@
     }
     
     .view-more-button{
-      color: #5a5d60;
+      color: black;
       padding: 12px;
       background-color: #eaeaea;
       border-radius: 5px;
@@ -58,7 +58,6 @@
     
     .view-more-button:hover{
       color: white;
-      
       box-shadow: inset 300px 0 0 0 #0896fe;
     }
     

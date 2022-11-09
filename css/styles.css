@@ -54,23 +54,17 @@ body {
   }
 
   .logo{
-    color: white;
     margin-left: 20px;
-    font-size: 24px;
-    font-style: italic;
-    font-family: monospace;
-    font-weight: 800;
-    width: 20px;
+    max-width: 160px;
+    border-bottom-right-radius: 36px;
   }
 
-  .logo:hover{
-    color: #ec7474;
-    transition: .3s ease-in;
-  }
 
   .search{
     margin-right: 20px;
   }
+
+  
   /*Home page*/
  
 
