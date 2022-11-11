@@ -71,7 +71,6 @@ body {
 .slidePosition{
 display: flex;
 align-items: center;
-padding-top: 30px;
 }
 
 .slideContainer{
@@ -228,6 +227,58 @@ label{
 }
 
 
+/* Footer */
+
+
+.footer-head{
+  text-align: center;
+  font-size: larger;
+}
+
+ .footer-icons{
+  text-align: center;
+  padding: 22px;
+ }
+
+.icons{
+  color: white;
+  padding: 5px;
+  font-size: larger;
+}
+
+.footer-links{
+  display: grid;
+}
+
+.footer-links li{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: larger;
+}
+
+.footer-cta:hover{
+  color: #ec7474;
+    transition: .3s ease-in;
+}
+
+.footer-cta{
+color: white;
+}
+
+.footer-info{
+  text-align: center;
+  font-size: larger;
+}
+
+
+footer{
+  color: white;
+  background-color: #000000;
+  height: 260px;
+}
+
+
 @media only screen and (max-width: 1200px){
   .slider-post{
     min-width: 44vw;
@@ -261,3 +312,33 @@ label{
         height: 300px;
       }
      }
+
+
+     @media only screen and (max-width: 740px){ 
+
+      .search{
+        display: none;
+      }
+       }
+
+       @media only screen and (max-width: 740px){ 
+
+        .main-header{
+          display: table-caption;
+          height: 165px;
+        }
+         }
+
+         @media only screen and (max-width: 740px){ 
+
+          .h2-style{
+            padding-top: 150px;
+          }
+           }
+
+           @media only screen and (max-width: 740px){ 
+
+            .logo{
+              padding-top: 10px;
+            }
+             }
