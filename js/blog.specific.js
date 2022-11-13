@@ -41,7 +41,3 @@ async function apiBlogs() {
 
 apiBlogs();
 
-function onClick(element) {
-  document.getElementById("imageToId").src = element.src;
-  document.getElementById("modalToId").style.display = "block";
-}

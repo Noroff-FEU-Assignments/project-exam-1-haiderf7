@@ -41,9 +41,9 @@
     }
     
     .view-more-button{
-      color: black;
+      color: white;
       padding: 12px;
-      background-color: #eaeaea;
+      background-color: #0896fe;
       border-radius: 5px;
       width: 300px;
       font-size: larger;
@@ -58,7 +58,7 @@
     
     .view-more-button:hover{
       color: white;
-      box-shadow: inset 300px 0 0 0 #0896fe;
+      box-shadow: inset 600px 0 0 0 blue ;
     }
     
     .h1-style{
@@ -77,3 +77,16 @@
         width: 100%;
       }
      }
+
+     @media only screen and (max-width: 740px){
+      .h1-blogs {
+        padding-top: 150px;
+      }
+     }
+     
+     @media only screen and (max-width: 740px){
+      .h1-style {
+        padding-top: 150px;
+      }
+     }
+     

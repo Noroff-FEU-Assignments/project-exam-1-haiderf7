@@ -12,13 +12,13 @@ const subjectError = document.querySelector("#subjectError");
 function validateForm(event) {
     event.preventDefault();
 
-    if (checkLength(Name.value, 0) === true) {
+    if (checkLength(Name.value, 5) === true) {
         nameError.style.display = "none";
     } else {
         nameError.style.display = "block";
     }
 
-    if (checkLength(message.value, 3) === true) {
+    if (checkLength(message.value, 25) === true) {
         messageError.style.display = "none";
     } else {
         messageError.style.display = "block";
@@ -31,7 +31,7 @@ function validateForm(event) {
     }
 
 
-    if (checkLength(subject.value, 3) === true) {
+    if (checkLength(subject.value, 15) === true) {
         subjectError.style.display = "none";
     } else {
         subjectError.style.display = "block";
