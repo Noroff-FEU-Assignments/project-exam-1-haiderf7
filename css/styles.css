@@ -48,6 +48,11 @@ body {
     transition: .3s ease-in;
   }
 
+  .footer-ul{
+    margin: 0 auto;
+    padding: 0;
+  }
+
   footer{
     color: white;
     background-color: #000000;
