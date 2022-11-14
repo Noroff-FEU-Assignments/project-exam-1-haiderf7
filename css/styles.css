@@ -53,10 +53,6 @@ body {
     padding: 0;
   }
 
-  footer{
-    color: white;
-    background-color: #000000;
-  }
 
   .logo{
     margin-left: 20px;
@@ -233,6 +229,11 @@ label{
 
 
 /* Footer */
+
+footer{
+  color: white;
+  background-color: #000000;
+}
 
 
 .footer-head{
