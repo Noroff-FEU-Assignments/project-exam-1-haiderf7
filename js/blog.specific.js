@@ -32,7 +32,7 @@ async function apiBlogs() {
         <div class="details">
         <div><h2>${results.title.rendered}</h2></div>
         <div><img src="${results.jetpack_featured_media_url}" alt="Picture of ${results.title.rendered}"></img></div>
-        <div>${results.content.rendered}</div>
+        <div>${results.excerpt.rendered}</div>
       </div>`;
   } catch (error) {
     console.log(error);
