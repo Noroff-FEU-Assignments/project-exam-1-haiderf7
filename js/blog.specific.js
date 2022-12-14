@@ -5,7 +5,7 @@ const id = params.get("id");
 console.log(id);
 console.log(params);
 
-const cors = "https://noroffcors.herokuapp.com/";
+const cors = "https://cors.noroff.dev/";
 const url =
 "https://haiderhashem.one/project-exam-1/wp-json/wp/v2/posts/"+ id;
 
