@@ -1,67 +1,70 @@
-## Project Exam 1
+# Haider's Football Blog, Project Exam
 
-## Goal
+![Skjermbilde_20221211_171735](https://user-images.githubusercontent.com/91637854/208267856-1d046bf0-dbab-4707-91fe-7c0789b568d6.png)
 
-To put into practice the skills learned over your first year of studies.
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+A simple overview of the use/purpose of the project. This is a project made for a football blog, where you can follow my top teams that i follow and post information about them.
 
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+This project is about a site which is called Haider's Football Blog. the point of it was to make this site using HTML, CSS, Javascript and wordpress REST API.
 
-### Blog Page
+How I made the site:
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+- Design the website in Adobe XD.
+- Adobe XD prototype.
+- Create the website with HTML and CSS
+-Use JS to get more content to the site.
+- Create a WordPress installation and use its plugin WooCommerce to get the teams.
+- make a slider post with JS
 
-### Blog Specific Page
+## Built With
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+This is the teck stack that I have used to make this site:
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+- [Html]()
+- [CSS]()
+- [JS]()
+- [WordPress Rest API](https://wordpress.com/)
+- [WooCommerce](https://woocommerce.com/)
+- [Fontawesome](https://fontawesome.com/)
+- [Hotjar](https://www.hotjar.com/)
+- [Netlify](https://www.netlify.com/)
 
-### Contact page
+## Designed with
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+- [Adobe XD](https://www.adobe.com/no/products/xd.html)
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+## Contact
 
-### WordPress
+This is my social links if you want or need to contact me:
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+[My Instagram page](https://www.instagram.com/)
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+[My Facebook page](https://www.facebook.com/)
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+## License
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+MIT License
 
-## Level 1 Process
+Copyright (c) [2022] [Haider Fhim Hashem]
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Acknowledgments
+
+I would like to acknowledge all the teachers at my school and my fellow students Noroff in our class group who have always helped me when I asked for help.
